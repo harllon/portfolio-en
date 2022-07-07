@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <meta property="og:image" content="assets/img/profile.jpg" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Harllon Paz</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Harllon
+                        <span class="text-primary">Paz</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        <a href="mailto:name@email.com">harllon.paz@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5", align = justify>
+                        I have experience with Android application development and Java, Kotlin and Python programming languages. 
+                        I used Python in data analysis projects during my participation in Nasa Space Apps Hackaton and in my exchange program at Texas Tech University. 
+                        I also have experience with Blender and Unity, software used in my scientific initiation project and in a <a href="https://harllon.github.io/PlatformGame/">course of 3D Graphic System, </a>that I attended at Institute of Pure and Applied Mathematics(IMPA). 
+                        In addition, during college, I participated in the “IME Integration” initiative, being responsible for contacting companies and inviting them to speak at the college, helping to develop skills such as teamwork, public speaking, leadership and the use of work methodologies, like Scrum. 
+                        I was a Python and Java tutor, teaching the basics of programming and data structures. 
+                        Moreover, I usually make personal Android application trying to improve my skills on Kotlin.
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Color App</h3>
+                            <p align = justify>
+                                This application was developed in Kotlin and allows the user to view colors that can be chosen in three different ways. 
+                                The first way consists of choosing the RGB components of the color through sliders, while the second way consists of writing the RGB components in hexadecimal. 
+                                Finally, the third way is to choose the HSV components through "sliders". 
+                                Viewing modes and the changes in color values ​​are synchronized using "Live Data". 
+                                There is a help button in the app which opens a "dialog box" explaining the app itself. 
+                                It is possible to login and register, for which Firebase was used, so that the user can save their favorite colors and view them later. 
+                                The user can navigate between the possible ways to visualize the colors and the screen with the colors saved using tabs at the bottom of the screen, which were made using "viewPager". 
+                                The saved colors are shown in the corresponding Tab, using the "Recycler View" allied to the "Room Database" that stores the colors saved by the user. 
+                                Furthermore, the items in the "Recycler View" – in this case, the colors – are selectable, so that when you select a color, a "dialog box" opens, showing information about the saved color.
+                            </p>
+                            <p>If you want to see details of code you can check the github of the project:
+                                <a href="https://github.com/harllon/ColorApp">Color App Github</a>.
+                            </p>
+                            <div align = center>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/pmVMZrl0qfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Sensor App</h3>
+                            <p align = justify>
+                                This application, developed in Java, allows the collection of data from several sensors available in cell phones, such as, the accelerometer and the gyroscope. 
+                                The user can select multiple sensors from a list of options, as well as select some methods from the sensor data such as speed, altitude and motion verification. 
+                                When you finish the selections and start the data collection, the chosen sensors are activated. 
+                                This management, from knowing which sensors were selected to activating them, was done using Live Datas and the sensor library available in the Android documentation. 
+                                At the end of the collection, if the user wants to save the data, they will be written in “.csv” files, one file for each sensor and method selected. 
+                                To make this process viable, the Room Database was used in order to be able to store all the data that the user wants to save. 
+                                The user can also share the files using other software, including e-mail, as the saved files will be automatically attached to the message body.
+                            </p>
+                            <p>If you want to see details of code you can check the github of the project:
+                                <a href="https://github.com/harllon/SensorApp">Sensor App Github</a>.
+                            </p>
+                            <div align = center>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/VZK-sq8b79U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Synthetics Light Fields Dataset</h3>
+                            <p align = justify>
+                                This project was developed during my scientific initiation project, whose objective was to generate a dataset of synthetic light field videos that would become challenges for video compression algorithms. 
+                                To produce this project, scenarios were created using Blender and Unity software, as well as a Blender plugin, responsible for creating a plenoptic camera. 
+                                Scenarios were created by applying textures to objects in the scene and creating occlusion zones between objects, two techniques that make video compression difficult. 
+                                The first makes compression "intra-frames" difficult - that is, within each "frame" of the video -, as this compression seeks similarities between image pixels and the texture creates a significant differentiation between pixels close of each other in the image. 
+                                The second technique makes it difficult to compress "inter-frames", that is, between frames, as it is difficult to accurately predict where a given pixel will appear, especially if it enters an occlusion zone. 
+                                At the end of the capture, the videos were visualized with a light fields video viewer that allowed exploring the two main properties of this video/image form, which are the change of focus after shooting and the change of point of view. 
+                                This project had an article published in SIBGRAPI (Conference on Graphics, Patterns and Images), in 2020, and a presentation was made at the same congress.
+                            </p>
+                            <p>If you want to see details of code you can check the github of the project:
+                                <a href="https://harllon.github.io/LightField-Blender/">Synthetics Light Field Dataset</a>.
+                            </p>
+                            <div align = center>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/fClaX95k8BE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Military Engineering Institute</h3>
+                            <div align = justify>
+                                I am currently an undergraduate in Computer Engineering at the Military Engineering Institute, 
+                                an engineering college managed by the Brazilian Army, 
+                                which graduates the students in courses of engineering and trains them to be officers of the Brazilian Army.
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2018 - December 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Texas Tech University</h3>
+                            <div class="subheading mb-3">Exchange Program</div>
+                            <div align = justify>
+                                I participated in an academic exchange program at Texas Tech University, linked to them Department of Computer Science. 
+                                I was part of the team at the Cyber Physical Systems Laboratory (CPS), where I produced the Sensors App. 
+                                This app aimed to analyze daily activities through data from cell phone sensors.
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2021 - December 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Military School of Salvador</h3>
+                            <div class="subheading mb-3">High School</div>
+                            <div align = justify>
+                                I studied at Salvador Military School during high school, 
+                                an educational institution that is part of the Brazilian Military School System, 
+                                a reference in education in the country, managed by the Brazilian Army.
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2014 - December 2016</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-android"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-git"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-swift"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-apple"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Knowledge in Java, Kotlin, Python e Swift
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Knowledge in version control(Git, Github)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Knowledge in mobile developement, MVVM architeture
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Knowledge in Blender e Unity
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Methodology(SCRUM), TeamWork
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Advanced English, Basic Spanish
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p align = justify>
+                        In addition to loving the area of mobile development, 
+                        I like to practice exercises such as soccer, outdoor running, cycling and indoor climbing. 
+                        I am a lover of travel and extreme activities such as rafting, abseiling, zip lining and diving. 
+                        In the context of diving I earned my certification for scuba diving up to 18 meters deep in May, 2022.
+                    </p>
+                    <p class="mb-0", align = justify>
+                        I like to talk and spend time with family and friends, 
+                        I also like to cook and watch and read about the geek universe. 
+                        During the pandemic, I developed a special appreciation for card, board and domino games. 
+                        In my free time, I usually follow the technological news, especially in the mobile area.
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
